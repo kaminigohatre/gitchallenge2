@@ -1,5 +1,5 @@
-import dev2
 
+import dev2
 client = boto3.client('ec2')
 response = client.run_instances(
     ImageId='ami-0614680123427b75e',
